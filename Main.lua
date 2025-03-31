@@ -101,7 +101,7 @@ local tp = TeleportTab:CreateButton({
 
 local BackToLobbyTab = Window:CreateTab("BackToLobby")
 
-local tp = BackToLobby:CreateButton({
+local tp = BackToLobbyTab:CreateButton({
     Name = "Lobby",
     Callback = function()
     local Targe = CFrame.new(252.904999, -101.162308, -1861.16162, 0, 0, 1, 0, 1, -0, -1, 0, 0)
