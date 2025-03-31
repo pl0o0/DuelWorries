@@ -2,7 +2,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local plr = game.Players.LocalPlayer
 
 local Window = Rayfield:CreateWindow({
-   Name = "Duel Worries",
+   Name = "Duel Warries",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "CommentMeForQuestion",
    LoadingSubtitle = "Created by Wpl0o0",
