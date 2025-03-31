@@ -44,3 +44,68 @@ local tp = TeleportTab:CreateButton({
         plr.Character.HumanoidRootPart.CFrame = CFrame.new(Posi)
     end,
 })
+
+local tp = TeleportTab:CreateButton({
+    Name = "1vs1 arena No1",
+    Callback = function()
+    local Targe = CFrame.new(19.1289997, -106.217003, -1863.46399, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    local Posi = Targe.Position + Vector3.new(0, 50, 0)
+        plr.Character.HumanoidRootPart.CFrame = CFrame.new(Posi)
+    end,
+})
+
+local tp = TeleportTab:CreateButton({
+    Name = "1vs1 arena No2",
+    Callback = function()
+    local Targe = CFrame.new(19.1290283, -106.067497, -1642.75, -1.1920929e-07, -0, -1.00000012, 0, 1, -0, 1.00000012, 0, -1.1920929e-07)
+    local Posi = Targe.Position + Vector3.new(0, 50, 0)
+        plr.Character.HumanoidRootPart.CFrame = CFrame.new(Posi)
+    end,
+})
+
+local tp = TeleportTab:CreateButton({
+    Name = "1vs1 arena No3",
+    Callback = function()
+    local Targe = CFrame.new(484.628998, -106.042015, -1863.46399, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    local Posi = Targe.Position + Vector3.new(0, 50, 0)
+        plr.Character.HumanoidRootPart.CFrame = CFrame.new(Posi)
+    end,
+})
+
+local tp = TeleportTab:CreateButton({
+    Name = "1vs1 arena No4",
+    Callback = function()
+    local Targe = CFrame.new(484.628998, -106.039276, -1642.75, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+    local Posi = Targe.Position + Vector3.new(0, 50, 0)
+        plr.Character.HumanoidRootPart.CFrame = CFrame.new(Posi)
+    end,
+})
+
+local tp = TeleportTab:CreateButton({
+    Name = "2vs2 arena No1",
+    Callback = function()
+    local Targe = CFrame.new(19.4977112, -104.637054, -2108.96338, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    local Posi = Targe.Position + Vector3.new(0, 50, 0)
+        plr.Character.HumanoidRootPart.CFrame = CFrame.new(Posi)
+    end,
+})
+
+local tp = TeleportTab:CreateButton({
+    Name = "2vs2 arena No1",
+    Callback = function()
+    local Targe = CFrame.new(485.438202, -104.637054, -2108.96362, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    local Posi = Targe.Position + Vector3.new(0, 50, 0)
+        plr.Character.HumanoidRootPart.CFrame = CFrame.new(Posi)
+    end,
+})
+
+local BackToLobbyTab = window:CreateTab("BackToLobby")
+
+local tp = TeleportTab:CreateButton({
+    Name = "Lobby",
+    Callback = function()
+    local Targe = CFrame.new(252.904999, -101.162308, -1861.16162, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+    local Posi = Targe.Position + Vector3.new(0, 50, 0)
+        plr.Character.HumanoidRootPart.CFrame = CFrame.new(Posi)
+    end,
+})
