@@ -39,7 +39,7 @@ local TeleportTab = Window:CreateTab("Teleport")
 local tp = TeleportTab:CreateButton({
     Name = "SetFightMode",
     Callback = function()
-    local Targe = CFrame.new(223.741486, -100.522751, -1758.8385, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    local Targe = CFrame.new(243.985138, -99.8247681, -15)
     local Posi = Targe.Position + Vector3.new(0, 3, 0)
         plr.Character.HumanoidRootPart.CFrame = CFrame.new(Posi)
     end,
